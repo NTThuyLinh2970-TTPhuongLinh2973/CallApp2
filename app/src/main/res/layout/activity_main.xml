@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:textColorHint="#D5CFCF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/num_oval"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/num2"
+        app:layout_constraintTop_toBottomOf="@+id/sdt"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num2"
+        android:layout_width="70dp"
+        android:layout_height="69dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/num_oval"
+        android:text="2"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sdt"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/num_oval"
+        android:text="3"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/num2"
+        app:layout_constraintTop_toBottomOf="@+id/sdt"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/num_oval"
+        android:text="4"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/num5"
+        app:layout_constraintTop_toBottomOf="@+id/num1"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/num_oval"
+        android:text="5"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num2"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/num_oval"
+        android:text="6"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/num5"
+        app:layout_constraintTop_toBottomOf="@+id/num3"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/num_oval"
+        android:text="7"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/num8"
+        app:layout_constraintTop_toBottomOf="@+id/num4"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/num_oval"
+        android:text="8"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num5"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/num_oval"
+        android:text="9"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/num8"
+        app:layout_constraintTop_toBottomOf="@+id/num6"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/num0"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/num_oval"
+
+        android:text="0"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num8"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/del"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layer_delete"
+        app:layout_constraintStart_toEndOf="@+id/num0"
+        app:layout_constraintTop_toBottomOf="@+id/num9"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/clr"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/layer_clear"
+        app:layout_constraintEnd_toStartOf="@+id/num0"
+        app:layout_constraintTop_toBottomOf="@+id/num7"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/call"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layer_call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clr"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/vidcall"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layer_vidcall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666666666666667"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/del"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
